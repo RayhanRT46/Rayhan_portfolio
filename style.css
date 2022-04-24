@@ -32,6 +32,7 @@ h3 {
     text-align: right;
 }
 
+
 .link_button {
     text-decoration: none;
     background-image: linear-gradient(orange, tomato);
@@ -79,6 +80,12 @@ h3 {
 .box_tow {
     border-left: 7px solid;
     border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+
+.box_three {
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
     border-image-slice: 1;
 }
 

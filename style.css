@@ -4,15 +4,20 @@ body {
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 20px;
 }
 
 .ornge-color {
     color: orange;
 }
 
-section {
+.flex_content {
     display: flex;
+    margin-bottom: 100px;
 
 
 }
@@ -24,6 +29,7 @@ section {
 
 .fast_1 img {
     width: 80%;
+    text-align: right;
 }
 
 .link_button {
@@ -38,4 +44,44 @@ section {
 .top-banner {
     background-image: url(photo/top-banner.png);
     background-repeat: no-repeat;
+}
+
+.tow {
+    background-image: url(photo/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+.three {
+    background-image: url(photo/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+}
+
+.box {
+    box-shadow: 5px 7px 40px #808080;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 15px;
+}
+
+.box h1 {
+    font-size: 30px;
+}
+
+.box_one {
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+}
+
+.box_tow {
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+
+.footer {
+    text-align: center;
 }
